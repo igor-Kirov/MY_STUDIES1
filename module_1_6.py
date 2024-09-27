@@ -1,0 +1,16 @@
+my_dict = {'Andrey': 1983, 'Kyzia': 1995, 'Lara': 1963}
+print('Словарь: ',my_dict)
+print("Значение, ключ имеется: ", my_dict['Lara'])
+print('Значение, ключ отсутствует: ', my_dict.get('Sveta'))
+my_dict.update({'Lena': 1964, 'Ivan': 1987})
+print('Словарь после добавления: ', my_dict)
+x=my_dict.pop('Kyzia')
+print('Значение удаленного ключа : ', x)
+print('Словарь после удаления: ', my_dict)
+print()
+my_set={1, 'String', 4, 3, 5, 4, 3, False, 1, (1, 6, 3)}
+print('Множество: ',my_set)
+my_set.update({6,7})
+#print('Множество после добавления: ',my_set)
+my_set.discard(5)
+print('Множество после удаления: ',my_set)
