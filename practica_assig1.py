@@ -8,7 +8,7 @@ def average(List):
     agrs=agrs/len(List)
     return agrs
 
-List_students= list(students)
+List_students= sorted(students)
 agr_students=dict()
 if len(students)== len(grades):
     for y in range(len(List_students)):
