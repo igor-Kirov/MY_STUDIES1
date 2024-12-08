@@ -8,6 +8,8 @@ def is_prime(func):
                 k = k + 1
         if k == 0:
             print('Простое')
+        else:
+            print('Составное')
         return n
     return do_func
 
